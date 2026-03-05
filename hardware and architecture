@@ -1,0 +1,13 @@
+Hardware Components
+Component	Quantity	Purpose
+ESP32	1	Main controller
+L298N Motor Driver	2	Motor control
+12V 200RPM DC Motor	2	Propulsion
+Buck Converter	1	Step-down power supply
+LiPo Battery	1	Power source
+Wheels + Chassis	1	Vehicle structure
+Hardware Architecture
+
+Battery → Motor Drivers → Motors
+Battery → Buck Converter → ESP32
+ESP32 → Motor Driver Inputs
