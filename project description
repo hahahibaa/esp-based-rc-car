@@ -1,0 +1,15 @@
+Project Overview
+
+This project implements a wireless remote-controlled car using an ESP32 microcontroller. The vehicle uses two 12 V 200 RPM DC motors placed diagonally for differential steering. Motor control is handled by two L298N motor drivers, while a buck converter regulates voltage for the ESP32.
+
+The ESP32 receives commands from a mobile device and translates them into motor driver signals to control forward, reverse, left, and right motion.
+
+The goal of this project was to explore:
+
+ESP32 wireless control
+
+Motor driver interfacing
+
+Power management with buck converters
+
+Differential steering control
